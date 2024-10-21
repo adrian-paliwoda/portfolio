@@ -123,4 +123,6 @@ const getProjects = async () => {
 };
 
 getProjects();
+
 console.log('Hi! Wanna talk - send me a message');
+console.log('adrian94@tutanota.com');
