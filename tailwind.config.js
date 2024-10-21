@@ -8,9 +8,6 @@ module.exports = {
         accent: {DEFAULT: "#CEFF7E", 400: '#C2FC5E'},
         description: '#9CA3AF'
       },
-      fontFamily: {
-        'dmsans': ["DM Sans", 'sans-serif']
-      },
       maxWidth: {
         'wtf': '82rem'
       },
