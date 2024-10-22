@@ -9,5 +9,10 @@ Webpage describe my carrer path
 - CSS/SCSS
 - JavaScript
 - NPM/Yarn
-- Parecel
+- Parcel
 - TailwindCss
+
+
+# Example
+
+![Webpage](.\screenshots\portfolio.png)
