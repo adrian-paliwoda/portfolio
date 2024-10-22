@@ -15,4 +15,4 @@ Webpage describe my carrer path
 
 # Example
 
-![Webpage](.\screenshots\portfolio.png)
+![Webpage](./screenshots/portfolio.png)
