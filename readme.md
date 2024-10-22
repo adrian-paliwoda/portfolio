@@ -1,8 +1,8 @@
 # Genesis
-All of the projects in this repository are based on WTF: co ten frontend course
+The repository includes a modified portfolio from the course WTF: what this frontend.
+Webpage describe my carrer path
 
 [WTF:Cotenfrontend](https://cotenfrontend.pl/)
-
 
 # Used technology
 - HTML 5

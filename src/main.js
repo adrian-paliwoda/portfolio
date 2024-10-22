@@ -101,7 +101,7 @@ const getProjects = async () => {
       const urlToRepo = repo.clone_url;
       const homepage = repo.homepage;
 
-      if (!description) {
+      if (!description || !topics) {
         continue;
       }
 
