@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         bg: "#020916",
-        accent: {DEFAULT: "#CEFF7E", 400: '#C2FC5E'},
+        accent: {DEFAULT: "#008be9", 400: '#3eb1ed'},
         description: '#9CA3AF'
       },
       maxWidth: {
