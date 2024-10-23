@@ -32,7 +32,7 @@
               <p class="text-xl font-bold text-accent">Adrian Paliwoda</p>
               <p
                 aria-label="Frontend developer"
-                class="text-white uppercase text-xs tracking-wider"
+                class="text-white uppercase text-xs tracking-wider font-bold"
               >
                 Backend developer
               </p>
@@ -41,9 +41,13 @@
 
           <nav class="hidden md:block">
             <ul class="flex flex-row gap-10 font-bold items-center">
-              <li><a href="#about">About Me</a></li>
-              <li><a href="#skills">Skils</a></li>
-              <li><a href="#projects">Projects</a></li>
+              <li>
+                <a class="hover:text-accent-400" href="#about">About Me</a>
+              </li>
+              <li><a class="hover:text-accent-400" href="#skills">Skils</a></li>
+              <li>
+                <a class="hover:text-accent-400" href="#projects">Projects</a>
+              </li>
               <li class="w-11 hover:text-accent-400">
                 <a
                   class="flex flex-row justify-center gap-1"
@@ -71,7 +75,7 @@
 
       <section
         id="about"
-        class="mx-auto max-w-wtf mb-20 md:mb-64 md:pt-32 flex flex-col md:flex-row-reverse items-center md:justify-between md:gap-12"
+        class="mx-auto max-w-wtf mb-20 md:mb-28 md:pt-32 flex flex-col md:flex-row-reverse items-center md:justify-between md:gap-12"
       >
         <picture>
           <source
@@ -112,15 +116,23 @@
               class="bg-accent text-bg flex gap-3 font-bold text-xl py-2 px-4 md:py-3.5 md:px-6 items-center rounded-wtf md:rounded-wtfxl ring-accent hover:bg-accent-400 hover:ring-accent-400 transition-colors duration-500"
               href="#contact"
             >
-              <img src="./images/get_in_touch.svg" alt="get in touch" />Get in
-              touch
+              <img
+                src="./images/get_in_touch.svg"
+                alt="get in touch"
+                width="23px"
+                height="23px"
+              />Get in touch
             </a>
             <a
-              class="bg-bg text-accent border-gray-800 border-2 flex gap-3 font-bold text-xl py-2 px-4 md:py-3.5 md:px-6 items-center rounded-wtf md:rounded-wtfxl ring-gray-800 ring-2 hover:ring-accent-400 transition-all"
+              class="bg-bg text-accent border-gray-800 border-1 flex gap-3 font-bold text-xl py-2 px-4 md:py-3.5 md:px-6 items-center rounded-wtf md:rounded-wtfxl ring-gray-800 ring-2 hover:ring-accent-400 transition-all"
               href="#skills"
             >
-              <img src="./images/get_to_know_me.svg" alt="get to know me" />Get
-              to know me
+              <img
+                src="./images/get_to_know_me.svg"
+                alt="get to know me"
+                width="23px"
+                height="23px"
+              />Get to know me
             </a>
           </div>
         </div>
@@ -256,7 +268,7 @@
         ></div>
       </section>
 
-      <section id="after-hours" class="mx-auto max-w-wtf mb-28 md:mb-64">
+      <section id="after-hours" class="mx-auto max-w-wtf mb-28">
         <h2
           class="text-gray-400 text-xl tracking-wider font-bold mb-4 uppercase"
         >
